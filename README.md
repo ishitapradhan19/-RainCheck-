@@ -9,11 +9,11 @@ Provides the probability of rain for the next day, based on real-time data from 
 
 ## Tech Stack
 
-Frontend: EJS, Node.js  
-Backend: Express.js  
-API: OpenWeather API (Free tier)  
-Package Manager: npm  
-Styling: Custom CSS
+- Frontend: EJS, Node.js  
+- Backend: Express.js  
+- API: OpenWeather API (Free tier)  
+- Package Manager: npm  
+- Styling: Custom CSS
 
 ## How to Use
 
@@ -26,16 +26,16 @@ Styling: Custom CSS
 
 ## API Key
 
-You will need to replace the API_KEY in the code with your own key from the OpenWeather API.
-Keep your API key private to prevent misuse.
+- You will need to replace the API_KEY in the code with your own key from the OpenWeather API.
+- Keep your API key private to prevent misuse.
 
 ## Contributing
 
-Feel free to fork this repository, make changes, and submit a pull request if you'd like to contribute.
+- Feel free to fork this repository, make changes, and submit a pull request if you'd like to contribute.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+- This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
-For any questions or suggestions, feel free to open an issue or reach out!
+- For any questions or suggestions, feel free to open an issue or reach out!
