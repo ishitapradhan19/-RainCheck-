@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="rain-container"></div>
+
+    <div class="container">
+        <h1>Will it rain tomorrow? ☔</h1>
+
+        <form action="/" method="POST">
+            <input type="text" name="city" placeholder="Enter city name" required>
+            <button type="submit">Check Weather</button>
+        </form>
+
+        <% if (weather) { %>
+            <div class="weather-info">
+                <p><%= weather %></p>
+            </div>
+        <% } %>
+
+        <% if (error) { %>
+            <div class="error">
+                <p><%= error %></p>
+            </div>
+        <% } %>
+    </div>
+
+    <script>
+     
+function createRain() {
+    const container = document.querySelector('.rain-container');
+    const drops = 50; 
+
+    for (let i = 0; i < drops; i++) {
+        const drop = document.createElement('div');
+        drop.className = 'drop';
+        drop.style.left = Math.random() * 100 + 'vw';
+        drop.style.animationDuration = (0.8 + Math.random() * 1.2) + 's';
+        drop.style.animationDelay = Math.random() * 2 + 's';
+        container.appendChild(drop);
+    }
+}
+
+createRain();
+    </script>
+</body>
+</html>
