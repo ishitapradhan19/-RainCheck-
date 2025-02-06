@@ -17,12 +17,12 @@ Styling: Custom CSS
 
 ## How to Use
 
-• Clone or download the repository to your local machine.  
-• Ensure you have Node.js and npm installed.  
-• Run npm install to install dependencies.  
-• Get your own OpenWeather API key from OpenWeather and replace it in the code (API_KEY).  
-• Start the server by running npm start.  
-• Visit http://localhost:3000 in your browser to use the website.
+•  Clone or download the repository to your local machine.  
+•  Ensure you have Node.js and npm installed.  
+•  Run npm install to install dependencies.  
+•  Get your own OpenWeather API key from OpenWeather and replace it in the code (API_KEY).  
+•  Start the server by running npm start.  
+•  Visit http://localhost:3000 in your browser to use the website.
 
 ## API Key
 
