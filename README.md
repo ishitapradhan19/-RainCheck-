@@ -9,10 +9,10 @@ Provides the probability of rain for the next day, based on real-time data from 
 
 **Tech Stack**
 
-Frontend: EJS, Node.js
-Backend: Express.js
-API: OpenWeather API (Free tier)
-Package Manager: npm
+Frontend: EJS, Node.js  
+Backend: Express.js  
+API: OpenWeather API (Free tier)  
+Package Manager: npm  
 Styling: Custom CSS
 
 **How to Use**
